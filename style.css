@@ -1,0 +1,54 @@
+body{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ background-color:#9f192e ;
+ display: flex;
+ flex-direction: column;
+}
+p{
+	color:#fff ;
+}
+h1{
+	color:#fff ;
+}
+h2{
+	color:#fff ;
+}
+navbar{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+align-items: center;
+padding-left: 50px;
+padding-right: 50px;
+}
+.navlink{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	gap: 38px;
+}
+.hirebutton{
+	background-color: #72e2ae;
+	border: none;
+	padding: 15px;
+	border-radius: 10px;
+
+}
+main{
+	display: :flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.introText{
+	text-align: center;
+
+}
+.profile{
+	border-radius: 50%;
+	border-color: #72e2ae;
+	border-width: 5px;
+}
